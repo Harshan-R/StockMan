@@ -116,7 +116,7 @@ const Header = () => {
             onMouseLeave={(e) => (e.currentTarget.className = classes.logo)}
           />
           <Typography className={classes.title} variant="h6">
-            Mankatha
+            StockMan
           </Typography>
           {isSignedIn ? (
             <>
