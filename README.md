@@ -1,13 +1,8 @@
 # Stock Overflow
-
-Mankatha is a warehouse stock trading learners' platform developed using React, MongoDB and Express.js. 
+StockMan warehouse stock trading learners' platform developed using React, MongoDB and Express.js. 
 
 ## Getting started
-
-```powershell
-git clone https://github.com/AkashSCIENTIST/Mankatha.git
-cd StockOverflow
-```
+`
 
 After this, open three terminals in the folder
 
