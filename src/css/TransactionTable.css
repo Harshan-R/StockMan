@@ -1,0 +1,29 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: black;
+    color: white;
+  }
+  
+  .entity {
+    color: black;
+  }
+  
+  .value {
+    color: black;
+  }
+
+  a{
+    text-decoration: none;
+  }

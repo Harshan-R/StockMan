@@ -1,0 +1,36 @@
+.grid {
+    /* display:flex;
+    padding: 5%;
+    justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: stretch; */
+    max-width: 80%;
+    /* margin: 0 auto; */
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-sizing: border-box;
+    
+  }
+
+  .grid img {
+    display: inline-block;
+    font-size:initial;
+    padding: 2%;
+    transition-delay: 0.5s;
+    size: 60%;
+}
+
+.grid img:nth-child(3n+0){
+    animation: grayToColor 1.9s ease-in infinite;
+}
+
+.grid img:nth-child(3n+1){
+    animation: grayToColor 2.4s ease-in infinite;
+}
+
+.grid img:nth-child(3n+2){
+    animation: grayToColor 2.9s ease-in infinite;
+}

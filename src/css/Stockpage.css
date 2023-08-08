@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ffffff;
+}
+.text div{
+  border: black;
+}
+
+.contentBx{
+    position: relative;
+    margin: 150px auto;
+    width: 450px;
+    padding: 20px;
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.contentBx:hover{
+  transform: scale(1.01);
+  border-radius: 25px;
+  box-shadow: 3px 10px 20px rgba(0,0,255,0.3);
+  filter: drop-shadow(20px 10px 10px rgba(0,0,255,0.3));
+}
+
+.contentBx:hover img{
+  transform: scale(1.01) translateY(-75px);
+  filter: drop-shadow(10px 10px 10px rgba(0,0,255,0.3));
+}
+
+.contentBx:hover .stockname{
+  transform: scale(1.1) translateY(-40px);
+  color: black;
+}
+
+.contentBx:hover .price_change{
+  transform: scale(1.1) translateY(-45px);
+}
+
+.contentBx:hover .buttons {
+  transform: scale(1.07) translateY(-20px);
+  filter: drop-shadow(20px 10px 10px rgba(0,0,255,0.3));  
+}
+
+.contentBx:hover h3 {
+  transform: scale(1.07) translateY(-20px);
+}
+
+.price_change{
+  display: flex;
+  flex-direction: column;
+  gap : 8px;
+  align-items: center;
+  justify-content: center;
+  color:black
+}
+
+.buttons{
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.buttons button{
+  color: white;
+  height:40px;
+  width: 80px;
+  background-color: blue;
+  border-color: white;
+  border-radius: 10px;
+  border-width: 0.5px;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+.buttons button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: blue;
+  /* border-color: blue; */
+}
